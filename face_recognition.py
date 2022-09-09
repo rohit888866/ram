@@ -44,7 +44,7 @@ while True:
     cv2.imshow('im',im) 
     yt= "LTS/"
     yz=yz+1
-    cv2.imwrite(yt+str(yz)+".jpg",image)
+    cv2.imwrite(yt+str(yz)+".jpg",im)
 
     if cv2.waitKey(10) & 0xFF == ord('q'):
         break
